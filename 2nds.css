@@ -1,0 +1,321 @@
+.head1{
+	font-size: 50px;
+	font-family: optima;
+	text-align: Center;
+	color: rgb(102, 255, 100);
+	text-decoration-style: underline ;
+	text-decoration-color: grey;
+	text-decoration-style: double;
+	text-shadow: 0 0 3px #FF0000;
+}
+#background{
+	background-image: url("dt1.png");
+	background-repeat: no-repeat;
+   background-size: cover; 
+   font-size: 25px;
+
+}
+.fname{
+	font-size: 30px;
+	font-family:  optima;
+	text-align: Center;
+	color: rgb(102, 255, 102);
+	text-decoration: underline;
+	text-decoration-color: grey;
+text-shadow: 0 0 3px #FF0002;
+}
+.div1{
+font-family: Optima ;
+	color: black;
+	background-repeat: no-repeat;
+	background-color: #8080ff;
+	padding: 24px,24px;
+	border-style: solid  ;
+	border-radius: 5px;
+	border-width: 2px;
+	height: 100px;
+	width: 95%;
+	align-content: center;
+	text-shadow: 0 0 1px;
+	font-weight: lighter;
+	font-size: 20px;
+	margin: ;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	
+}
+.div2{
+	font-family: Times New Roman ;
+	color: #07CAE7;
+	align-content: center;
+	background-repeat: no-repeat;
+	background-image: url("download.jpg");
+	padding: 24px,36px;
+	border-style: solid;
+	border-radius: 12px;
+	border-width: 6px;
+	border-color: yellow;
+	margin: 25px 280px 25px 255px;
+	justify-content: center;
+	text-shadow:0 0 3px #FF0000, 0 0 5px  ;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.button {
+  background-color: #4CAF50;
+  border-color: black;
+  border= 0.5px 
+  color: white;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 0 2px 2px #141414;
+  font-family: optima;
+  font-weight: bold;
+  font-size: 20;
+}
+.button:hover {
+background-color: green;
+            color: red;
+            cursor: pointer;}
+
+input[type=text ]{
+  background-color: rgb(242, 242, 242);
+  border: 3px;
+  border-color: black;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: auto;
+border-radius: 7px;}
+
+input[type=email]{
+background-color: rgb(242, 242, 242);
+  border: 2px;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: auto;
+border-radius: 7PX;}
+
+input[type=password]{
+    background-color:rgb(242, 242, 242); 
+    border: 3px;
+    color: #606161;
+    padding: 16px 32px;
+    margin: 4px 2px;
+  cursor: auto;
+border-radius: 7px
+
+}
+
+
+
+#city{
+
+background-color: rgb(242, 242, 242)y;
+  border: 2px;
+  color: black;
+  padding: 12px 18px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: auto;
+border-radius: 7PX;}
+
+a:link {
+  color:#00cc00 ;
+}
+
+a:visited {
+  color:#005ce6 ;
+}
+
+/* mouse over link */
+a:hover {
+  color: #a64dff;
+}
+
+/
+a:active {
+  color:#1affff;
+}
+
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-family: Helvetica;
+    -webkit-font-smoothing: antialiased;
+    background: rgba( 71, 147, 227, 1);
+}
+h2{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    padding: 30px 0;
+}
+
+/* Table Styles */
+
+.table-wrapper{
+    margin: 10px 70px 70px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 8px;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+}
+
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+    .fl-table {
+        display: block;
+        width: 100%;
+    }
+    .table-wrapper:before{
+        content: "Scroll horizontally >";
+        display: block;
+        text-align: right;
+        font-size: 11px;
+        color: white;
+        padding: 0 0 10px;
+    }
+    .fl-table thead, .fl-table tbody, .fl-table thead th {
+        display: block;
+    }
+    .fl-table thead th:last-child{
+        border-bottom: none;
+    }
+    .fl-table thead {
+        float: left;
+    }
+    .fl-table tbody {
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+    }
+    .fl-table td, .fl-table th {
+        padding: 20px .625em .625em .625em;
+        height: 60px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 120px;
+        font-size: 13px;
+        text-overflow: ellipsis;
+    }
+    .fl-table thead th {
+        text-align: left;
+        border-bottom: 1px solid #f7f7f9;
+    }
+    .fl-table tbody tr {
+        display: table-cell;
+    }
+    .fl-table tbody tr:nth-child(odd) {
+        background: none;
+    }
+    .fl-table tr:nth-child(even) {
+        background: transparent;
+    }
+    .fl-table tr td:nth-child(odd) {
+        background: #F8F8F8;
+        border-right: 1px solid #E6E4E4;
+    }
+    .fl-table tr td:nth-child(even) {
+        border-right: 1px solid #E6E4E4;
+    }
+    .fl-table tbody td {
+        display: block;
+        text-align: center;
+    }
+}
+#linkwala{
+	font-size: 30px;
+	font-family: optima;
+	text-shadow: 0 0 3px #FF0000;
+
+}
+.radio{
+
+font-size: 15px;
+font-family: Alrial;
+color: #4db8ff;
+border 3px;
+border-color: Blue;
+
+
+}
+.small{
+height: 18%;
+width: 30%;
+color:#ff6f61 ;
+font-size: 15px;
+border: solid;
+border-color:  #ffb3ff ;
+
+margin-left: 1%;
+padding-top: 12px;
+
+background-size: cover;
+background-position: center;
+
+
+
+}
+.congo{
+
+
+font-size: 30px;
+    font-family: Courier New;
+    text-align: Center;
+    color: rgb(102, 255, 100);
+    text-decoration: underline;
+    text-decoration-color: grey;
+    text-decoration-style: double;
+    text-shadow: 0 0 3px #FF0000;
+
+}
